@@ -17,7 +17,7 @@ h2 {
 
 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   color: rgb(27, 27, 30);
 }
 
@@ -60,6 +60,7 @@ li:hover {
   font-size: 3em;
   margin: 0px;
 }
+
 .city-state {
   color: rgb(204, 204, 204);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -101,7 +102,10 @@ li:hover {
 }
 
 .nav li {
-  display: inline;
+  display: inline-block;
+  padding: 0.5em;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
 }
 
 .nav li:last-child {
@@ -113,19 +117,22 @@ li:hover {
   padding: 0;
 }
 
-.nav li {
-  display: inline-block;
-  padding: 0.5em;
-  color: rgba(255, 255, 255, 0.9);
-  text-decoration: none;
+/* .static-nav-bar {
+  position: fixed;
+  background-color: rgb(27, 27, 30);
+  top: 0;
+  width: 100%;
 }
 
-.nav a:hover {
-  color: rgba(255, 255, 255, 0.6);
-}
+#nav-bar {
+  display: none;
+} */
 
-ul {
-  list-style-image: url("../assets/img/reel_bullet.png");
+.static-nav {
+  width: 360px;
+  background-color: rgb(27, 27, 30);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content-container {
