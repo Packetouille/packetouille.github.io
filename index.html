@@ -14,6 +14,7 @@
 
     <title>Andres Londoño</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/newstyles.css" />
+    <script src="/scripts/myscripts.js"></script>
     <link
       rel="icon"
       type="image/x-icon"
@@ -30,19 +31,25 @@
           <div class="nav">
             <ul>
               <li>
-                <a href="#about"
-                  ><img src="assets/img/about_gray_icon.png" id="icon"
-                /></a>
+                <img
+                  src="assets/img/about_gray_icon.png"
+                  id="icon"
+                  onclick="scrollElement('about')"
+                />
               </li>
               <li>
-                <a href="#courses"
-                  ><img src="assets/img/courses_gray_icon.png" id="icon"
-                /></a>
+                <img
+                  src="assets/img/courses_gray_icon.png"
+                  id="icon"
+                  onclick="scrollElement('courses')"
+                />
               </li>
               <li>
-                <a href="#interests"
-                  ><img src="assets/img/interests_gray_icon.png" id="icon"
-                /></a>
+                <img
+                  src="assets/img/interests_gray_icon.png"
+                  id="icon"
+                  onclick="scrollElement('interests')"
+                />
               </li>
               <li>
                 <a href="https://github.com/Packetouille" target="_blank"
@@ -204,3 +211,9 @@
     </div>
   </body>
 </html>
+
+<!-- <li>
+  <a href="#interests"
+    ><img src="assets/img/interests_gray_icon.png" id="icon"
+  /></a>
+</li> -->
