@@ -259,7 +259,7 @@ li:hover {
 #about {
   color: rgba(255, 255, 255, 0.9);
   grid-column: 1 / end;
-  min-width: 800px;
+  min-width: 100vw;
   height: 100vh;
   text-align: center;
 }
