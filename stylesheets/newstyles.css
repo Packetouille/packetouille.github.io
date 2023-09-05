@@ -3,7 +3,6 @@
 html,
 body {
   background-color: rgb(27, 27, 30);
-  width: 100vw;
   height: 100%;
   padding: 0px;
   margin: 0px;
@@ -33,6 +32,8 @@ li:hover {
 }
 
 .container {
+  width: 100vw;
+  max-width: 100%;
   height: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -46,7 +47,7 @@ li:hover {
 }
 
 .main-header {
-  min-width: 800px;
+  width: auto;
   height: 200px;
   margin: 0;
   display: grid;
