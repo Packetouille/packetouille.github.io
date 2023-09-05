@@ -3,7 +3,7 @@
 html,
 body {
   background-color: rgb(27, 27, 30);
-  width: 100%;
+  width: 100vw;
   height: 100%;
   padding: 0px;
   margin: 0px;
@@ -46,7 +46,7 @@ li:hover {
 }
 
 .main-header {
-  min-width: 800px;
+  width: 100vw;
   height: 200px;
   margin: 0;
   display: grid;
@@ -259,7 +259,7 @@ li:hover {
 #about {
   color: rgba(255, 255, 255, 0.9);
   grid-column: 1 / end;
-  min-width: 100vw;
+  width: 100vw;
   height: 100vh;
   text-align: center;
 }
@@ -268,7 +268,7 @@ li:hover {
   background-color: rgb(27, 27, 30);
   color: rgba(255, 255, 255, 0.9);
   grid-column: 1 / end;
-  min-width: 800px;
+  width: 100vw;
   height: 100vh;
   text-align: center;
 }
@@ -286,7 +286,7 @@ li:hover {
 #interests {
   color: rgba(255, 255, 255, 0.9);
   grid-column: 1 / end;
-  min-width: 800px;
+  width: 100vw;
   height: 100vh;
   text-align: center;
 }
