@@ -46,7 +46,7 @@ li:hover {
 }
 
 .main-header {
-  width: 100%;
+  min-width: 800px;
   height: 200px;
   margin: 0;
   display: grid;
@@ -79,7 +79,7 @@ li:hover {
 
 .footer {
   height: 40px;
-  width: 100%;
+  min-width: 250px;
   background-color: rgb(27, 27, 30);
   text-align: center;
   align-items: center;
@@ -259,7 +259,7 @@ li:hover {
 #about {
   color: rgba(255, 255, 255, 0.9);
   grid-column: 1 / end;
-  width: 100%;
+  min-width: 800px;
   height: 100vh;
   text-align: center;
 }
@@ -268,7 +268,7 @@ li:hover {
   background-color: rgb(27, 27, 30);
   color: rgba(255, 255, 255, 0.9);
   grid-column: 1 / end;
-  width: 100%;
+  min-width: 800px;
   height: 100vh;
   text-align: center;
 }
@@ -286,7 +286,7 @@ li:hover {
 #interests {
   color: rgba(255, 255, 255, 0.9);
   grid-column: 1 / end;
-  width: 100%;
+  min-width: 800px;
   height: 100vh;
   text-align: center;
 }
