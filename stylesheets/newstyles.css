@@ -46,7 +46,7 @@ li:hover {
 }
 
 .main-header {
-  width: 100vw;
+  min-width: 800px;
   height: 200px;
   margin: 0;
   display: grid;
