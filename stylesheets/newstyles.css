@@ -172,10 +172,10 @@ li:hover {
 }
 
 .centered {
-  font-size: 0.7em;
+  font-size: 0.6em;
   font-weight: bold;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   position: absolute;
   top: 35%;
   left: 50%;
