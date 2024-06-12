@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/packetouille.github.io/static/css/main.26773a3a.css",
-    "main.js": "/packetouille.github.io/static/js/main.8d5c7e03.js",
+    "main.js": "/packetouille.github.io/static/js/main.b5b00a90.js",
     "static/js/453.78a91f37.chunk.js": "/packetouille.github.io/static/js/453.78a91f37.chunk.js",
     "static/media/city_landscape2.png": "/packetouille.github.io/static/media/city_landscape2.9911153d172a609dd562.png",
     "static/media/mouse_black.jpg": "/packetouille.github.io/static/media/mouse_black.899d017247b6c4dc3044.jpg",
     "static/media/mj_avatar.jpg": "/packetouille.github.io/static/media/mj_avatar.353cb065199bf19a8dc1.jpg",
     "index.html": "/packetouille.github.io/index.html",
     "main.26773a3a.css.map": "/packetouille.github.io/static/css/main.26773a3a.css.map",
-    "main.8d5c7e03.js.map": "/packetouille.github.io/static/js/main.8d5c7e03.js.map",
+    "main.b5b00a90.js.map": "/packetouille.github.io/static/js/main.b5b00a90.js.map",
     "453.78a91f37.chunk.js.map": "/packetouille.github.io/static/js/453.78a91f37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26773a3a.css",
-    "static/js/main.8d5c7e03.js"
+    "static/js/main.b5b00a90.js"
   ]
 }
