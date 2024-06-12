@@ -1,0 +1,128 @@
+#profile-container {
+    width: 350px;
+    height: fit-content;
+    background-color: var(--charcoal-100);
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.5), 0 0 5px 0 rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#profile-header {
+    width: 100%;
+    height: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 7px 10px -10px rgba(0, 0, 0, .2);
+    padding: 60px 0 20px 0;
+    background-color: white;
+}
+
+#profile-header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .2);
+}
+
+#profile-header h2 {
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 1em;
+    color: var(--charcoal-600);
+    opacity: .8;
+}
+
+#profile-header p {
+    font-size: .9em;
+    font-weight: 500;
+    line-height: 1em;
+    color: var(--charcoal-500);
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+#profile-social-icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#profile-text-area {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 60px;
+}
+
+#profile-text-area p {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: gray;
+    margin: 0;
+    opacity: .8;
+}
+
+#profile-stats {
+    width: 100%;
+    min-height: 115px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    box-shadow: 0 -7px 10px -10px rgba(0, 0, 0, .2);
+}
+
+.profile-stat-card {
+    width: 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-stat-card h1 {
+    color: gray;
+    font-size: 1.6em;
+    line-height: 1em;
+    font-weight: 700;
+}
+
+.profile-stat-card h3 {
+    color: gray;
+    font-size: .8em;
+    line-height: .8em;
+    opacity: .6;
+}
+
+.profile-footer-btn {
+    color: white;
+    width: 100%;
+    height: 75px;
+    border: none;
+    outline: none;
+    background-color: rgb(29, 107, 224); 
+}
+
+.profile-footer-btn:hover {
+    background-color: rgb(29, 107, 224, .8);
+    box-sizing: border-box;
+}
+
+.clickable:hover {
+    cursor: pointer;
+    opacity: .8;
+}

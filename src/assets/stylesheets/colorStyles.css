@@ -1,0 +1,390 @@
+* {
+    --teal-100: #E0F7F9;
+    --teal-200: #B3EDF0;
+    --teal-300: #80E2E7;
+    --teal-400: #4DD7DE;
+    --teal-500: #26CDD6;
+    --teal-600: #00C3CD;
+    --teal-700: #00B4C1;
+    --teal-800: #009FA6;
+    --teal-900: #007276;
+
+    --creamy-white-100: #FFFDF5;
+    --creamy-white-200: #FFFBEA;
+    --creamy-white-300: #FFF9E0;
+    --creamy-white-400: #FFF6D5;
+    --creamy-white-500: #FFF4CA;
+    --creamy-white-600: #FFF1BF;
+    --creamy-white-700: #FFEEB4;
+    --creamy-white-800: #FFECAB;
+    --creamy-white-900: #FFE696;
+
+    --coral-100: #FFF2ED;
+    --coral-200: #FFE6DA;
+    --coral-300: #FFD9C8;
+    --coral-400: #FFCCB5;
+    --coral-500: #FFBFA3;
+    --coral-600: #FFB291;
+    --coral-700: #FFA47F;
+    --coral-800: #FF976D;
+    --coral-900: #FF7C48;
+
+    --navy-100: #E6E9F2;
+    --navy-200: #CCD3E5;
+    --navy-300: #B3BCD9;
+    --navy-400: #99A5CC;
+    --navy-500: #808EBF;
+    --navy-600: #6677B3;
+    --navy-700: #4D60A6;
+    --navy-800: #334999;
+    --navy-900: #1A338C;
+
+    --gold-100: #FFF8E0;
+    --gold-200: #FFEFCC;
+    --gold-300: #FFE5B8;
+    --gold-400: #FFDBA3;
+    --gold-500: #FFD290;
+    --gold-600: #FFC87C;
+    --gold-700: #FFBF69;
+    --gold-800: #FFB655;
+    --gold-900: #FFAC42;
+
+    --charcoal-100: #f2f2f2;
+    --charcoal-200: #E6E6E6;
+    --charcoal-300: #d9d9d9;
+    --charcoal-400: #CCCCCC;
+    --charcoal-500: #BFBFBF;
+    --charcoal-600: #B3B3B3;
+    --charcoal-700: #A6A6A6;
+    --charcoal-800: #999999;
+    --charcoal-900: #808080;
+    --charcoal-1000: #1d1d1d;
+
+    --lavender-100: #F6F0FB;
+    --lavender-200: #EDDCF8;
+    --lavender-300: #E3C9F4;
+    --lavender-400: #DAB6F1;
+    --lavender-500: #D0A2ED;
+    --lavender-600: #C68FEA;
+    --lavender-700: #BD7CE7;
+    --lavender-800: #B369E3;
+    --lavender-900: #AA56E0;
+
+    --mint-100: #F2FBF5;
+    --mint-200: #E6F7EB;
+    --mint-300: #D9F3E1;
+    --mint-400: #CCEDD7;
+    --mint-500: #BFE8CD;
+    --mint-600: #B3E4C3;
+    --mint-700: #A6DFB9;
+    --mint-800: #99D9AF;
+    --mint-900: #8CD4A5;
+}
+
+/* Color Classes */
+
+/* Teal */
+.teal-100 {
+    color: var(--teal-100);
+}
+
+.teal-200 {
+    color: var(--teal-200);
+}
+
+.teal-300 {
+    color: var(--teal-300);
+}
+
+.teal-400 {
+    color: var(--teal-400);
+}
+
+.teal-500 {
+    color: var(--teal-500);
+}
+
+.teal-600 {
+    color: var(--teal-600);
+}
+
+.teal-700 {
+    color: var(--teal-700);
+}
+
+.teal-800 {
+    color: var(--teal-800);
+}
+
+.teal-900 {
+    color: var(--teal-900);
+}
+
+
+/* Creamy White */
+.creamy-white-100 {
+    color: var(--creamy-white-100);
+}
+
+.creamy-white-200 {
+    color: var(--creamy-white-200);
+}
+
+.creamy-white-300 {
+    color: var(--creamy-white-300);
+}
+
+.creamy-white-400 {
+    color: var(--creamy-white-400);
+}
+
+.creamy-white-500 {
+    color: var(--creamy-white-500);
+}
+
+.creamy-white-600 {
+    color: var(--creamy-white-600);
+}
+
+.creamy-white-700 {
+    color: var(--creamy-white-700);
+}
+
+.creamy-white-800 {
+    color: var(--creamy-white-800);
+}
+
+.creamy-white-900 {
+    color: var(--creamy-white-900);
+}
+
+
+/* Coral */
+.coral-100 {
+    color: var(--coral-100);
+}
+
+.coral-200 {
+    color: var(--coral-200);
+}
+
+.coral-300 {
+    color: var(--coral-300);
+}
+
+.coral-400 {
+    color: var(--coral-400);
+}
+
+.coral-500 {
+    color: var(--coral-500);
+}
+
+.coral-600 {
+    color: var(--coral-600);
+}
+
+.coral-700 {
+    color: var(--coral-700);
+}
+
+.coral-800 {
+    color: var(--coral-800);
+}
+
+.coral-900 {
+    color: var(--coral-900);
+}
+
+
+/* Navy */
+.navy-100 {
+    color: var(--navy-100);
+}
+
+.navy-200 {
+    color: var(--navy-200);
+}
+
+.navy-300 {
+    color: var(--navy-300);
+}
+
+.navy-400 {
+    color: var(--navy-400);
+}
+
+.navy-500 {
+    color: var(--navy-500);
+}
+
+.navy-600 {
+    color: var(--navy-600);
+}
+
+.navy-700 {
+    color: var(--navy-700);
+}
+
+.navy-800 {
+    color: var(--navy-800);
+}
+
+.navy-900 {
+    color: var(--navy-900);
+}
+
+
+/* Gold */
+.gold-100 {
+    color: var(--gold-100);
+}
+
+.gold-200 {
+    color: var(--gold-200);
+}
+
+.gold-300 {
+    color: var(--gold-300);
+}
+
+.gold-400 {
+    color: var(--gold-400);
+}
+
+.gold-500 {
+    color: var(--gold-500);
+}
+
+.gold-600 {
+    color: var(--gold-600);
+}
+
+.gold-700 {
+    color: var(--gold-700);
+}
+
+.gold-800 {
+    color: var(--gold-800);
+}
+
+.gold-900 {
+    color: var(--gold-900);
+}
+
+/* Charcoal */
+.charcoal-100 {
+    color: var(--charcoal-100);
+}
+
+.charcoal-200 {
+    color: var(--charcoal-200);
+}
+
+.charcoal-300 {
+    color: var(--charcoal-300);
+}
+
+.charcoal-400 {
+    color: var(--charcoal-400);
+}
+
+.charcoal-500 {
+    color: var(--charcoal-500);
+}
+
+.charcoal-600 {
+    color: var(--charcoal-600);
+}
+
+.charcoal-700 {
+    color: var(--charcoal-700);
+}
+
+.charcoal-800 {
+    color: var(--charcoal-800);
+}
+
+.charcoal-900 {
+    color: var(--charcoal-900);
+}
+
+.charcoal-1000 {
+    color: var(--charcoal-1000);
+}
+
+
+/* Lavender */
+.lavender-100 {
+    color: var(--lavender-100);
+}
+
+.lavender-200 {
+    color: var(--lavender-200);
+}
+
+.lavender-300 {
+    color: var(--lavender-300);
+}
+
+.lavender-400 {
+    color: var(--lavender-400);
+}
+
+.lavender-500 {
+    color: var(--lavender-500);
+}
+
+.lavender-600 {
+    color: var(--lavender-600);
+}
+
+.lavender-700 {
+    color: var(--lavender-700);
+}
+
+.lavender-800 {
+    color: var(--lavender-800);
+}
+
+.lavender-900 {
+    color: var(--lavender-900);
+}
+
+
+/* Mint */
+.mint-100 {
+    color: var(--mint-100);
+}
+
+.mint-200 {
+    color: var(--mint-200);
+}
+
+.mint-300 {
+    color: var(--mint-300);
+}
+
+.mint-400 {
+    color: var(--mint-400);
+}
+
+.mint-500 {
+    color: var(--mint-500);
+}
+
+.mint-600 {
+    color: var(--mint-600);
+}
+
+.mint-700 {
+    color: var(--mint-700);
+}
+
+.mint-800 {
+    color: var(--mint-800);
+}
+
+.mint-900 {
+    color: var(--mint-900);
+}

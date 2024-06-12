@@ -1,0 +1,136 @@
+/* https://learntocodewith.me/posts/portfolio-tips/ */
+@import "colorStyles.css";
+
+/*
+Cream - F2F1EF
+Salmon - E0939F
+Pink - DA00AE
+Lighter Blue - 7C83B7
+Darker Blue - 2C233E
+*/
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --page-background: var(--charcoal-1000);
+    --primary-text: var(--charcoal-1000);
+    --secondary-text: var(--100);
+}
+
+.align-justify-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-btn {
+    width: 200px;
+    height: 60px;
+    font-size: 1.1em;
+}
+
+#header{
+    color: var(--primary-text);
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    opacity: .98;
+}
+
+#main-container {
+    min-width: 450px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--page-background);
+}
+
+#hero-section {
+    background-color: var(--charcoal-1000);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--creamy-white-100);
+    font-weight: 200;
+}
+
+#hero-text-area h1{
+    font-size: 2.5em;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+#hero-text-area h2{
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+#about-section {
+    background-color: var(--creamy-white-100);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#projects-section {
+    background-color: var(--charcoal-100);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#projects-container ul {
+    width: fit-content;
+}
+
+.custom-clear-btn {
+    background-color: transparent;
+    border: 1px solid var(--creamy-white-100);
+}
+
+.custom-clear-btn:hover {
+    background-color: var(--creamy-white-100);
+    color: var(--charcoal-1000);
+}
+
+.design-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

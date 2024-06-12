@@ -1,0 +1,118 @@
+#ecommerce-item-container {
+    min-width: 300px;
+    max-width: 1344px;
+    height: fit-content;
+    background-color: white;
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.5), 0 0 5px 0 rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px 30px;
+    gap: 20px;
+}
+
+#ecommerce-item-img-area {
+    max-width: 400px;
+    height: fit-content;
+    padding: 60px 30px;
+}
+
+#ecommerce-item-colors-area {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#ecommerce-item-info-area {
+    max-width: 350px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 20px 20px 10px;
+}
+
+#ecommerce-item-info-area h1 {
+    font-size: 2em;
+    font-weight: 800;
+    line-height: 1.2em;
+    color: var(--charcoal-1000);
+    opacity: .8;
+    margin-bottom: 10px;
+}
+
+#ecommerce-item-info-area h3 {
+    font-size: 1.9em;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: var(--charcoal-900);
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+#ecommerce-item-info-area h5 {
+    font-size: 1.1em;
+    font-weight: 800;
+    color: var(--charcoal-1000);
+    opacity: .8;
+    letter-spacing: 0px;
+}
+
+#ecommerce-item-info-area p {
+    font-size: .85em;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: var(--charcoal-900);
+    opacity: 1;
+    text-wrap: wrap;
+}
+
+#ecommerce-item-info-area h6 {
+    color: var(--lavender-900);
+    font-weight: 700;
+    line-height: 0;
+    margin-bottom: 40px;
+}
+
+.ecommerce-btn {
+    font-size: .85em;
+    font-weight: 600;
+    background-color: rgb(19, 188, 115);
+    width: 175px;
+    height: 50px;
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0 0 15px 0px rgba(19, 188, 115, 0.8), 0 0 5px 0 rgba(19, 188, 115, .2);
+}
+
+.ecommerce-btn:hover {
+    cursor: pointer;
+    background-color: rgb(19, 188, 115);
+    opacity: .8;
+}
+
+.ecommerce-color-picker {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3), 0 0 5px 0 rgba(0, 0, 0, .2);
+}
+
+.ecommerce-color-picker:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.bg-charcoal-900 {
+    background-color: var(--charcoal-900);
+}
+
+.bg-charcoal-300 {
+    background-color: var(--charcoal-300);
+}

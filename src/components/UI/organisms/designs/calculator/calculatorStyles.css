@@ -1,0 +1,26 @@
+body {
+    --gray-100: #FAFAFA; /* Lightest Gray */
+    --gray-200: #F0F0F0; /* Soft Gray */
+    --gray-300: #E6E6E6; /* Very Light Gray */
+    --gray-400: #DCDCDC; /* Light Gray */
+    --gray-500: #C3C3C3; /* Cool Gray */
+    --gray-600: #AAAAAA; /* Medium Gray */
+    --gray-700: #919191; /* Dim Gray */
+    --gray-800: #787878; /* Slate Gray */
+    --gray-900: #5F5F5F; /* Graphite Gray */
+    --gray-1000: #464646; /* Charcoal Gray */
+    --gray-1100: #2D2D2D; /* Dark Gray */
+    --gray-1200: #141414; /* Very Dark Gray */
+}
+
+#music-player-container {
+    min-width: 300px;
+    max-width: 350px;
+    height: 600px;
+    background-color: var(--background-color);
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.5), 0 0 5px 0 rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
