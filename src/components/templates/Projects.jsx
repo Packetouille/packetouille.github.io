@@ -5,7 +5,7 @@ import UserProfile from '../UI/organisms/designs/user-profile/UserProfile'
 import EcommerceItem from '../UI/organisms/designs/ecommerce-item/EcommerceItem'
 import MusicPlayer from '../UI/organisms/designs/music-player/MusicPlayer'
 
-const Projects = () => {
+const Projects = ({ slideRefs }) => {
     const [design, setDesign] = useState("User Profile")
 
     const handleSwitch = () => {
@@ -22,7 +22,7 @@ const Projects = () => {
     }
 
     return (
-        <div id='projects-section'>
+        <div id='projects-section'  ref={el => slideRefs.current = { ...slideRefs.current, projects: el}}>
             <Container>
                 <div id='projects-container'>
                     <ul>
