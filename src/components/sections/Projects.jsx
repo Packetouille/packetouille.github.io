@@ -1,6 +1,6 @@
 import {React, useState} from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
-import DesignCard from './DesignCard'
+import DesignCard from '../templates/DesignCard'
 import UserProfile from '../UI/organisms/designs/user-profile/UserProfile'
 import EcommerceItem from '../UI/organisms/designs/ecommerce-item/EcommerceItem'
 import MusicPlayer from '../UI/organisms/designs/music-player/MusicPlayer'
@@ -22,7 +22,7 @@ const Projects = ({ slideRefs }) => {
     }
 
     return (
-        <div id='projects-section'  ref={el => slideRefs.current = { ...slideRefs.current, projects: el}}>
+        <div id='projects-section'  ref={el => slideRefs.current = { ...slideRefs.current, work: el}}>
             <Container>
                 <div id='projects-container'>
                     <ul>

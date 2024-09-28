@@ -26,7 +26,7 @@ const About = (props) => {
     },[])
 
     return (
-        <div id='about-section' ref={el => props.slideRefs.current = { ...props.slideRefs.current, about: el}}>
+        <div className='full-section bkg-charcoal-100' ref={el => props.slideRefs.current = { ...props.slideRefs.current, about: el}}>
             <Box boxName="blue-box"/>
         </div>
     )

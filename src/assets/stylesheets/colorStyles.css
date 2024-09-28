@@ -83,7 +83,10 @@
 
 /* Color Classes */
 
-/* Teal */
+/***************************************************/
+/********************** Teal ***********************/
+/***************************************************/
+
 .teal-100 {
     color: var(--teal-100);
 }
@@ -120,8 +123,49 @@
     color: var(--teal-900);
 }
 
+/* background */
 
-/* Creamy White */
+.bkg-teal-100 {
+    background-color: var(--teal-100);
+}
+
+.bkg-teal-200 {
+    background-color: var(--teal-200);
+}
+
+.bkg-teal-300 {
+    background-color: var(--teal-300);
+}
+
+.bkg-teal-400 {
+    background-color: var(--teal-400);
+}
+
+.bkg-teal-500 {
+    background-color: var(--teal-500);
+}
+
+.bkg-teal-600 {
+    background-color: var(--teal-600);
+}
+
+.bkg-teal-700 {
+    background-color: var(--teal-700);
+}
+
+.bkg-teal-800 {
+    background-color: var(--teal-800);
+}
+
+.bkg-teal-900 {
+    background-color: var(--teal-900);
+}
+
+
+/***************************************************/
+/******************* Creamy White ******************/
+/***************************************************/
+
 .creamy-white-100 {
     color: var(--creamy-white-100);
 }
@@ -158,8 +202,49 @@
     color: var(--creamy-white-900);
 }
 
+/* background */
 
-/* Coral */
+.bkg-creamy-white-100 {
+    background-color: var(--creamy-white-100);
+}
+
+.bkg-creamy-white-200 {
+    background-color: var(--creamy-white-200);
+}
+
+.bkg-creamy-white-300 {
+    background-color: var(--creamy-white-300);
+}
+
+.bkg-creamy-white-400 {
+    background-color: var(--creamy-white-400);
+}
+
+.bkg-creamy-white-500 {
+    background-color: var(--creamy-white-500);
+}
+
+.bkg-creamy-white-600 {
+    background-color: var(--creamy-white-600);
+}
+
+.bkg-creamy-white-700 {
+    background-color: var(--creamy-white-700);
+}
+
+.bkg-creamy-white-800 {
+    background-color: var(--creamy-white-800);
+}
+
+.bkg-creamy-white-900 {
+    background-color: var(--creamy-white-900);
+}
+
+
+/***************************************************/
+/********************** Coral **********************/
+/***************************************************/
+
 .coral-100 {
     color: var(--coral-100);
 }
@@ -196,8 +281,48 @@
     color: var(--coral-900);
 }
 
+/* background */
 
-/* Navy */
+.bkg-coral-100 {
+    color: var(--coral-100);
+}
+
+.bkg-coral-200 {
+    background-color: var(--coral-200);
+}
+
+.bkg-coral-300 {
+    background-color: var(--coral-300);
+}
+
+.bkg-coral-400 {
+    background-color: var(--coral-400);
+}
+
+.bkg-coral-500 {
+    background-color: var(--coral-500);
+}
+
+.bkg-coral-600 {
+    background-color: var(--coral-600);
+}
+
+.bkg-coral-700 {
+    background-color: var(--coral-700);
+}
+
+.bkg-coral-800 {
+    background-color: var(--coral-800);
+}
+
+.bkg-coral-900 {
+    background-color: var(--coral-900);
+}
+
+/***************************************************/
+/*********************** Navy **********************/
+/***************************************************/
+
 .navy-100 {
     color: var(--navy-100);
 }
@@ -234,8 +359,48 @@
     color: var(--navy-900);
 }
 
+/* background */
 
-/* Gold */
+.bkg-navy-100 {
+    background-color: var(--navy-100);
+}
+
+.bkg-navy-200 {
+    background-color: var(--navy-200);
+}
+
+.bkg-navy-300 {
+    background-color: var(--navy-300);
+}
+
+.bkg-navy-400 {
+    background-color: var(--navy-400);
+}
+
+.bkg-navy-500 {
+    background-color: var(--navy-500);
+}
+
+.bkg-navy-600 {
+    background-color: var(--navy-600);
+}
+
+.bkg-navy-700 {
+    background-color: var(--navy-700);
+}
+
+.bkg-navy-800 {
+    background-color: var(--navy-800);
+}
+
+.bkg-navy-900 {
+    background-color: var(--navy-900);
+}
+
+/***************************************************/
+/*********************** Gold **********************/
+/***************************************************/
+
 .gold-100 {
     color: var(--gold-100);
 }
@@ -272,7 +437,48 @@
     color: var(--gold-900);
 }
 
-/* Charcoal */
+/* Background */
+
+.bkg-gold-100 {
+    background-color: var(--gold-100);
+}
+
+.bkg-gold-200 {
+    background-color: var(--gold-200);
+}
+
+.bkg-gold-300 {
+    background-color: var(--gold-300);
+}
+
+.bkg-gold-400 {
+    background-color: var(--gold-400);
+}
+
+.bkg-gold-500 {
+    background-color: var(--gold-500);
+}
+
+.bkg-gold-600 {
+    background-color: var(--gold-600);
+}
+
+.bkg-gold-700 {
+    background-color: var(--gold-700);
+}
+
+.bkg-gold-800 {
+    background-color: var(--gold-800);
+}
+
+.bkg-gold-900 {
+    background-color: var(--gold-900);
+}
+
+/***************************************************/
+/******************** Charcoal *********************/
+/***************************************************/
+
 .charcoal-100 {
     color: var(--charcoal-100);
 }
@@ -313,8 +519,52 @@
     color: var(--charcoal-1000);
 }
 
+/* Background */
 
-/* Lavender */
+.bkg-charcoal-100 {
+    background-color: var(--charcoal-100);
+}
+
+.bkg-charcoal-200 {
+    background-color: var(--charcoal-200);
+}
+
+.bkg-charcoal-300 {
+    background-color: var(--charcoal-300);
+}
+
+.bkg-charcoal-400 {
+    background-color: var(--charcoal-400);
+}
+
+.bkg-charcoal-500 {
+    background-color: var(--charcoal-500);
+}
+
+.bkg-charcoal-600 {
+    background-color: var(--charcoal-600);
+}
+
+.bkg-charcoal-700 {
+    background-color: var(--charcoal-700);
+}
+
+.bkg-charcoal-800 {
+    background-color: var(--charcoal-800);
+}
+
+.bkg-charcoal-900 {
+    background-color: var(--charcoal-900);
+}
+
+.charcoal-1000 {
+    background-color: var(--charcoal-1000);
+}
+
+/***************************************************/
+/********************* Lavender ********************/
+/***************************************************/
+
 .lavender-100 {
     color: var(--lavender-100);
 }
@@ -351,8 +601,48 @@
     color: var(--lavender-900);
 }
 
+/* Background */
 
-/* Mint */
+.bkg-lavender-100 {
+    background-color: var(--lavender-100);
+}
+
+.bkg-lavender-200 {
+    background-color: var(--lavender-200);
+}
+
+.bkg-lavender-300 {
+    background-color: var(--lavender-300);
+}
+
+.bkg-lavender-400 {
+    background-color: var(--lavender-400);
+}
+
+.bkg-lavender-500 {
+    background-color: var(--lavender-500);
+}
+
+.bkg-lavender-600 {
+    background-color: var(--lavender-600);
+}
+
+.bkg-lavender-700 {
+    background-color: var(--lavender-700);
+}
+
+.bkg-lavender-800 {
+    background-color: var(--lavender-800);
+}
+
+.bkg-lavender-900 {
+    background-color: var(--lavender-900);
+}
+
+/***************************************************/
+/*********************** Mint **********************/
+/***************************************************/
+
 .mint-100 {
     color: var(--mint-100);
 }
@@ -387,4 +677,42 @@
 
 .mint-900 {
     color: var(--mint-900);
+}
+
+/* Background */
+
+.bkg-mint-100 {
+    background-color: var(--mint-100);
+}
+
+.bkg-mint-200 {
+    background-color: var(--mint-200);
+}
+
+.bkg-mint-300 {
+    background-color: var(--mint-300);
+}
+
+.bkg-mint-400 {
+    background-color: var(--mint-400);
+}
+
+.bkg-mint-500 {
+    background-color: var(--mint-500);
+}
+
+.bkg-mint-600 {
+    background-color: var(--mint-600);
+}
+
+.bkg-mint-700 {
+    background-color: var(--mint-700);
+}
+
+.bkg-mint-800 {
+    background-color: var(--mint-800);
+}
+
+.bkg-mint-900 {
+    background-color: var(--mint-900);
 }
